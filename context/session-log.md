@@ -27,6 +27,27 @@
 
 ---
 
+## Session 3 — 2026-03-25
+
+### What we did
+- Set up GitHub connection for the project
+- Generated SSH key (`~/.ssh/id_ed25519`) and added to GitHub account (gunshot8000-creator)
+- Created GitHub repo `test_claude_01` under `gunshot8000-creator`
+- Initialized git repo, created `.gitignore` (excludes Binaries, Intermediate, DerivedDataCache, Saved, .vs, *.sln)
+- Set git identity: Haitham / Gunshot8000@gmail.com
+- Made first commit (274 files) and pushed to `git@github.com:gunshot8000-creator/test_claude_01.git`
+- Content/ folder is tracked (130MB, no single file over 50MB — no LFS needed)
+
+### Files created
+- `.gitignore`
+
+### State at end of session
+- Project is fully on GitHub, SSH auth working
+- Push: `git add . && git commit -m "msg" && git push`
+- Pull: `git pull`
+
+---
+
 ## Session 2 — 2026-03-25
 
 ### What we did

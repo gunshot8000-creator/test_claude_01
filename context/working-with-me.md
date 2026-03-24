@@ -19,3 +19,10 @@ Guidelines for Claude when working on this project.
 - Module: `test_claude_01`
 - See `context/project-overview.md` for full project structure
 - See `context/build-and-launch.md` for build commands
+
+## Version Control
+
+- Git repo connected to GitHub: `git@github.com:gunshot8000-creator/test_claude_01.git`
+- SSH auth (key at `~/.ssh/id_ed25519`)
+- Git identity: Haitham / Gunshot8000@gmail.com
+- Content/ is tracked in git (no LFS)
