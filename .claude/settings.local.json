@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"C:/Program Files/Epic Games/UE_5.6/Engine/Build/BatchFiles/Build.bat\" test_claude_01Editor Win64 Development \"g:/Unreal Projects/test_claude_01/test_claude_01.uproject\" -waitmutex)",
+      "Bash(powershell.exe -Command \"& ''C:\\\\Program Files\\\\Epic Games\\\\UE_5.6\\\\Engine\\\\Build\\\\BatchFiles\\\\Build.bat'' test_claude_01Editor Win64 Development ''g:\\\\Unreal Projects\\\\test_claude_01\\\\test_claude_01.uproject'' -waitmutex\")",
+      "Skill(update-config)",
+      "Skill(update-config:*)",
+      "Bash(find 'g:/Unreal Projects/test_claude_01/Content/' -type f -name *Manny* -o -name *Mannequin*)",
+      "Bash(grep -i \"\\\\.uasset$\")",
+      "Bash(find 'C:/Program Files/Epic Games/UE_5.6/Engine/Source' -name *CameraShake* -o -name *Matinee*Camera*)",
+      "Bash(grep \"\\\\.h$\")",
+      "Bash(find 'C:/Program Files/Epic Games/UE_5.6/Engine/Source' -name *.h)",
+      "Bash(find 'C:/Program Files/Epic Games/UE_5.6/Engine/Source/Runtime' -name *Oscillat* -o -name *ShakePattern*)",
+      "Bash(find 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins' -name *.h -path */CameraShake*)",
+      "Bash(powershell.exe -Command \"Stop-Process -Name ''UnrealEditor'' -Force -ErrorAction SilentlyContinue; Start-Sleep -Seconds 2; Write-Host ''Editor closed''\")",
+      "Bash(git --version)",
+      "Bash(gh --version)",
+      "Bash(ssh-keygen -t ed25519 -C \"claude-generated\" -f ~/.ssh/id_ed25519 -N \"\")"
+    ]
+  }
+}

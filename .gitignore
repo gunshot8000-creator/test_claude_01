@@ -1,0 +1,14 @@
+# Unreal Engine generated
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Visual Studio
+.vs/
+*.sln
+
+# OS
+Thumbs.db
+Desktop.ini
